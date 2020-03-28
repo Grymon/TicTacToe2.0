@@ -14,7 +14,6 @@ public class Main {
         String player1name;
         String player2name;
         String[][] board = initBoard();
-        int playerPosition;
         String result = "";
 
         Scanner in = new Scanner(System.in);
@@ -22,19 +21,24 @@ public class Main {
         System.out.println("Input Player 1 name");
         player1name = in.nextLine();
 
-
         System.out.println("Input Player 2 name");
         player2name = in.nextLine();
 
         System.out.printf("Player 1 - %s - plays with O, Player 2 - %s - plays with X\n", player1name, player2name);
 
+        playGame(player1name, player2name, board, result, in);
+
+    }
+
+    public static void playGame(String player1name, String player2name, String[][] board, String result, Scanner in) {
+        int playerPosition;
         do {
             System.out.println("\nRound number " + round);
             String playerSymobl = determinSymbol(round);
             System.out.println("Now " + ((round %2 == 0)?player2name:player1name));
-            System.out.printf("Where do you want to place the token? (%s)\n", playerSymobl);
+            System.out.printf("Where do you want to place your token? (%s)\n", playerSymobl);
 
-            System.out.print("Specify the place (1-9)");
+            System.out.print("Specify place on the board(1-9)");
             playerPosition = Integer.parseInt(in.nextLine());
             playerPosition = checkIfPositionTaken(playerPosition, in);
             if (checkPosition(playerPosition)) continue;
@@ -45,8 +49,6 @@ public class Main {
             System.out.println(result);
 
         }while (result.isEmpty());
-
-
     }
 
     public static int checkIfPositionTaken(int playerPosition, Scanner in) {
@@ -80,8 +82,6 @@ public class Main {
 
     public static void placePiece(String[][] board, String playerSymobl, int playerPosition) {
         addPlayerPositionsToArray(playerPosition, playerSymobl);
-        System.out.println(player1Positions);
-        System.out.println(player2Positions);
         switch (playerPosition){
             case 1:
                 board[0][0] = playerSymobl;
