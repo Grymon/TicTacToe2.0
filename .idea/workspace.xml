@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15315921-a1a3-40b5-9a30-a94d8c232502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe2.0/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe2.0/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,41 +52,61 @@
       <option name="presentableId" value="Default" />
       <updated>1585414280271</updated>
     </task>
+    <task id="LOCAL-00001" summary="cleaner code, added game method that holds the whole game logic, removed testing sout statements">
+      <created>1585424397149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585424397149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cleaner code, added game method that holds the whole game logic, removed testing sout statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaner code, added game method that holds the whole game logic, removed testing sout statements" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1585424332400">
+    <state x="614" y="174" key="CommitChangelistDialog2" timestamp="1585424395383">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585424332400" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1585424332400">
+    <state x="614" y="174" key="CommitChangelistDialog2/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585424395383" />
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1585427870066">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585424332400" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1585424332400">
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870066" />
+    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1585427870066">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585424332400" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1585424332400">
+    <state width="1877" height="396" key="GridCell.Tab.0.center/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870066" />
+    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1585427870066">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585424332400" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1585420362341">
+    <state width="1877" height="396" key="GridCell.Tab.0.left/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870066" />
+    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1585427870066">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585420362341" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1585420362341">
+    <state width="1877" height="396" key="GridCell.Tab.0.right/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870066" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1585427870067">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585420362341" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1585420362341">
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870067" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1585427870067">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585420362341" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1585420362341">
+    <state width="1877" height="396" key="GridCell.Tab.1.center/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870067" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1585427870066">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585420362341" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870066" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1585427870067">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/1920.286.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1585427870067" />
+    <state x="2299" y="474" key="com.intellij.ide.util.TipDialog" timestamp="1585464999177">
+      <screen x="1920" y="286" width="1366" height="728" />
+    </state>
+    <state x="2299" y="474" key="com.intellij.ide.util.TipDialog/1920.286.1366.728/0.0.1920.1160@1920.286.1366.728" timestamp="1585464999177" />
     <state x="1109" y="325" key="extract.method.dialog" timestamp="1585424182316">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

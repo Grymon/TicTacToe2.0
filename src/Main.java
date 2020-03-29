@@ -53,7 +53,7 @@ public class Main {
 
     public static int checkIfPositionTaken(int playerPosition, Scanner in) {
         while(player1Positions.contains(playerPosition)||player2Positions.contains(playerPosition)){
-            System.out.println("Position taken, place your position again");
+            System.out.println("Position taken, place your token again");
             playerPosition = Integer.parseInt(in.nextLine());
         }
         return playerPosition;
@@ -164,7 +164,7 @@ public class Main {
             } else if (player2Positions.containsAll(l)) {
                 return "\nPlayer two " + player2name + " wins!";
             }else if(player1Positions.size() + player2Positions.size() == 9){
-                return "\nRemis";
+                return "\nDraw";
             }
         }
         return "";
